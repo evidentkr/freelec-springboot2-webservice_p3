@@ -34,10 +34,10 @@ dependencies {
 
     compile('org.springframework.boot:spring-boot-starter-mustache')
 
-//    compile('org.springframework.boot:spring-boot-starter-oauth2-client')
+    compile('org.springframework.boot:spring-boot-starter-oauth2-client')
 
-//    compile('org.springframework.session:spring-session-jdbc')
+    compile('org.springframework.session:spring-session-jdbc')
 
-    /*임의의 인증 사용자 추가 테스트*/
-//    compile('org.springframework.security:spring-security-test')
+    /*테스트지원 - 스프링 시큐리티 테스트시 사용*/
+    compile('org.springframework.security:spring-security-test')
 }

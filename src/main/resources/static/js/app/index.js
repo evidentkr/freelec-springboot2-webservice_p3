@@ -26,7 +26,7 @@ var main = {
             }
         ).fail(
             function(error) {
-                alert(Json.stringify(error));
+                alert(JSON.stringify(error));
             }
         );
     },
@@ -52,7 +52,7 @@ var main = {
                 }
             ).fail(
                 function(error) {
-                    alert(Json.stringify(error));
+                    alert(JSON.stringify(error));
                 }
             );
         },
